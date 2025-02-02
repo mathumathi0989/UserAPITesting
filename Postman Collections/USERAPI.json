@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "38982052-8b95-484e-92e5-9ccb9a6037ce",
 		"name": "Mathumathi_Team4_APIAvengers_ApiBootcamp",
-		"description": "USER API with below API Requests:  \nCreate User  \nGet ALL Users  \nGet By UserID  \nGet By UserFirstName  \nUpdate User  \nDelete by UserID  \nDelete by UserFirstName",
+		"description": "USER API with below API Requests:  \nCreate User,  \nGet ALL Users,  \nGet By UserID,  \nGet By UserFirstName,  \nUpdate User,  \nDelete by UserID,  \nDelete by UserFirstName",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -394,7 +394,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ff2e3bde-cb91-4c9f-84c7-86d5ac8b8c32",
+				"id": "cc5f89bf-1a32-40b2-8528-ddef28e3882d",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -480,12 +480,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "016dcbb5-23a7-439b-ab34-325c056a18d0",
+				"id": "5e2ca4d7-e57b-493f-a801-c314642401c5",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
 					"const scenarioName = pm.variables.get(\"scenario\");\r",
-					"\r",
 					"\r",
 					"// Define a function that contains common tests to validate the API response\r",
 					"var commonTests = () =>{\r",
