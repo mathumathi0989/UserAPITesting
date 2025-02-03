@@ -163,6 +163,7 @@
 							"}",
 							"",
 							"",
+							"console.log(\"User ID before GET request:\", pm.environment.get(\"user_id\"));",
 							""
 						],
 						"type": "text/javascript",
