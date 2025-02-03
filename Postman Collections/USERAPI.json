@@ -378,7 +378,9 @@
 						"id": "41a1d4a3-927a-4350-b8d1-8f626812b4ba",
 						"exec": [
 							"var jsonData = pm.response.json();",
-							"console.log(jsonData.message);"
+							"console.log(jsonData.message);",
+							"",
+							"pm.environment.clear();"
 						],
 						"type": "text/javascript",
 						"packages": {}
